@@ -1,22 +1,21 @@
 # Hi, I'm Santhosh Birada
 
-**Deep Learning | Computer Vision | Applied Machine Learning**
+**DevOps-focused developer | Containers | Kubernetes**
 
-I build and evaluate machine-learning models for visual recognition and anomaly detection. My recent coursework projects include skin-lesion segmentation with U-Net and pretrained CNN encoders, CIFAR-100 image classification, and network-intrusion detection with LSTM autoencoders and clustering.
+I focus on building containerized applications and Kubernetes-deployable microservices. My hands-on work covers local multi-container environments, service-to-service communication, Kubernetes deployments, persistent storage, externalized configuration, and horizontal autoscaling.
 
 ## Skills
 
-- **Languages:** Python
-- **Deep learning:** PyTorch, TensorFlow/Keras, CNNs, transfer learning, U-Net, LSTM autoencoders
-- **Computer vision:** image classification, semantic segmentation, data augmentation, OpenCV, Albumentations
-- **Machine learning:** scikit-learn, K-Means, PCA, feature preprocessing
-- **Data and evaluation:** NumPy, pandas, Jupyter, Dice score, precision, recall, F1 score, ROC-AUC, confusion matrices
+- **Containers and images:** Docker, Docker Compose, image build and registry-push workflows
+- **Kubernetes:** Deployments, Services, StatefulSets, Horizontal Pod Autoscalers, PersistentVolumeClaims, ConfigMaps, Secrets, kubectl
+- **Microservices and networking:** Node.js, Express, REST APIs, service discovery, Nginx reverse proxy
+- **Data and persistence:** PostgreSQL, persistent volumes, database-per-service patterns
+- **Languages and tools:** JavaScript, Python, YAML, Git, GitHub
 
-## Selected project work
+## Featured project
 
-- **Skin-lesion segmentation:** Compared MobileNetV2, ResNet-18, and ResNet-34 encoders with a U-Net decoder on ISIC 2018, including an augmentation comparison.
-- **Network-intrusion anomaly detection:** Compared basic and bidirectional LSTM autoencoders with a K-Means baseline on KDD Cup 1999 traffic data.
-- **Image classification:** Implemented a custom CNN and evaluated transfer-learning models on CIFAR-100.
-- **Optimization:** Implemented gradient descent from multiple starting points and visualized optimization trajectories.
+### [TaskFlow: Kubernetes Microservice Task Manager](https://github.com/santhosh-1414/Build_Something)
 
-I’m interested in practical deep-learning applications, careful model evaluation, and reproducible experiments.
+A containerized task-management application with a frontend, two Node.js/Express services, and PostgreSQL. The project includes Docker Compose for local development and Kubernetes manifests for deployments, services, persistent storage, configuration, secrets, and horizontal scaling.
+
+I’m continuing to build practical skills in containerization, orchestration, and secure application configuration.
